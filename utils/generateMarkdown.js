@@ -1,5 +1,3 @@
-const fs = require("fs");
-
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) { }
@@ -16,16 +14,37 @@ function renderLicenseSection(license) { }
 function generateMarkdown(data) {
   return `
   # Project Title: ${data.title}\n
-  # ${data.username}\n
-  # ${data.email}\n
-  # ${data.description}\n
-  # ${data.installation}\n
-  # ${data.usage}\n
-  # ${data.guidelines}\n
-  # ${data.instructions}\n
-  # ${data.license}\n
+
+  ## Table of Contents:
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [License](#license)
+  - [Author / Contributors](#author(s))
+  
+  ### Description:\n
+  - ${data.description}\n
+
+  ### Installation:\n
+  - ${data.instructions}\n
+  - ${data.installation}\n
+  - ${data.guidelines}\n
+
+  ### Usage:\n
+  - ${data.usage}\n
+
+  ### Tests
+  - ${data.test}
+
+  ### Author(s):\n
+  - Github Username: ${data.username}\n
+  - Email: ${data.email}\n
+
+  ### License:
+  - ${data.license}\n
   `;
 }
-
 
 module.exports = generateMarkdown;

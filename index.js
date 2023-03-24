@@ -32,6 +32,11 @@ const questions = [
     },
     {
         type: "input",
+        message: "Are there any test instructions?",
+        name: "test"
+    },
+    {
+        type: "input",
         message: "Is there any usage information?",
         name: "usage"
     },
@@ -39,11 +44,6 @@ const questions = [
         type: "input",
         message: "Are there any contribution guidelines?",
         name: "guidelines"
-    },
-    {
-        type: "input",
-        message: "Are there any test instructions?",
-        name: "instructions"
     },
     {
         type: "input",
