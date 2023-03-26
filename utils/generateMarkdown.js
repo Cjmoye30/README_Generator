@@ -45,7 +45,6 @@ function renderLicenseLink(license) {
       break;
     default:
       return "";
-
   }
 }
 
@@ -109,6 +108,8 @@ function generateMarkdown(data) {
 
   ### Screenshots: \n
   - [Github Live Site]()
+  - Screenshot:
+  ![CLI Interface](/assets/images/09README-generator.png)
 
   ### Installation:\n
   - ${data.installation}\n
@@ -122,7 +123,7 @@ function generateMarkdown(data) {
 
   ### Questions:\n
   If you have any suggestions on how to upgrade this application, then please contact me via the links below:
-  - Github Username: ${data.username}\n
+  - Github Username: [${data.username}](https://github.com/${data.username}) \n
   - Email: ${data.email}\n
 
   ### License:
