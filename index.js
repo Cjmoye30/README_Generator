@@ -3,7 +3,10 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require("./utils/generateMarkdown")
 
-// TODO: Create an array of questions for user input
+// TODO: Create a function to initialize app
+function init() {
+
+    // TODO: Create an array of questions for user input
 const questions = [
     {
         type: "input",
@@ -46,9 +49,10 @@ const questions = [
         name: "guidelines"
     },
     {
-        type: "input",
+        type: "list",
+        name: "license",
         message: "What license would you like to choose?",
-        name: "license"
+        choices: ["Apache 2.0", "MIT", "Eclipse Public License", "Mozilla Public License 2.0", "The Unlicense"]
     }
 ];
 
@@ -65,9 +69,6 @@ function writeToFile(fileName, data) {
         err ? console.error(error) : console.log("Created README!")
     )
 }
-
-// TODO: Create a function to initialize app
-function init() {
 
 }
 
