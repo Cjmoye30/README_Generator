@@ -21,7 +21,7 @@
 
   ### Screenshots: 
 
-  - [Github Live Site]()
+  - [Github Live Site](https://cjmoye30.github.io/README_Generator/)
   - Screenshot:
   ![CLI Interface](/assets/images/09README-generator.png)
 
