@@ -1,5 +1,5 @@
 
-  # Project Title: README Generator
+  # Project Title: Professional README Generator
 
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit-0/)
 
@@ -16,7 +16,7 @@
   
   ### Description:
 
-  - This CLI program will quickly generate a professional README.md file with all of the necessary sections to add to.
+  - This is a command line program which will prompt the user for all of the basic info needed to start a professional README.md file. This file is not all inclusive and should be used as a starter template which should be added to over time.
 
 
   ### Screenshots: 
@@ -27,14 +27,14 @@
 
   ### Installation:
 
-  - no
+  - node index.js
 
-  - 
+  - no
 
 
   ### Usage:
 
-  - 
+  - no
 
 
   ### Tests
