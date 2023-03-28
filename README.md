@@ -16,7 +16,7 @@
   
   ### Description:
 
-  - This is a CLI program which can quickly create a README.md file with all of the needed sections.
+  - This CLI program will quickly generate a professional README.md file with all of the necessary sections to add to.
 
 
   ### Screenshots: 
@@ -27,7 +27,7 @@
 
   ### Installation:
 
-  - 
+  - no
 
   - 
 
@@ -38,7 +38,7 @@
 
 
   ### Tests
-  - 
+  - no
 
   ### Questions:
 
